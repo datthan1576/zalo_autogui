@@ -2,7 +2,7 @@ import os
 import time
 import pyautogui
 import pyperclip
-from autogui import move_cursor_by_image  # Bạn cần đảm bảo hàm này tồn tại và chạy được
+from autogui import move_cursor_by_image
 
 def click_and_paste_text(text, delay=0.5):
     pyperclip.copy(text)
